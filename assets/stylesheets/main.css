@@ -1,0 +1,103 @@
+body {
+	margin-top: 70px;
+	color: #333;
+	background-color: #333;
+}
+
+h1 {
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+
+section {
+	margin: auto;
+	margin-top: 30px;
+	width: 240px;
+}
+
+div {
+	display: inline-block;
+	border-radius: 3px;
+}
+
+
+.numbers {
+	width: 180px;
+}
+
+#screen {
+	box-sizing: border-box;
+	color: #fff;
+	width: 225px;
+	height: 30px;
+	padding-top: 5px;
+	border: 1px solid #fff;
+	text-align: center;
+}
+
+.numbers div {
+	box-sizing: border-box;
+	width: 60px;
+	height: 60px;
+	float: left;
+	padding: 22px;
+	border: 1px solid #444;
+	background-color: lightgray;
+}
+
+.numbers div:active {
+	background-color: #333;
+}
+
+.numbers div:hover {
+	cursor: pointer;
+}
+
+
+.numbers div:last-child {
+	text-align: center;
+	width: 180px;
+	height: 60px;
+	padding: 22px 50px;
+}
+
+.calc {
+	width: 60px;
+	height: 240px;
+	float: right;
+}
+
+.calc div {
+	box-sizing: border-box;
+	width: 45px;
+	height: 60px;
+	padding: 18px 5px;
+	text-align: center;
+	border: 1px solid #444;
+	background-color: lightgray;
+}
+
+.calc div:active {
+	background-color: #333;
+}
+
+.calc div:hover {
+	cursor: pointer;
+}
+
+#button:active {
+	background-color: #000;
+}
+
+#button:hover {
+	cursor: pointer;
+}
+
+#button {
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 20px;
+	border: 1px solid #444;
+	background-color: lightgray;
+}
